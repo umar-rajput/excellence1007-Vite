@@ -1,17 +1,19 @@
 <script lang="ts">
 import { defineComponent } from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+import Test from "./components/Test.vue";
 
 export default defineComponent({
   components: {
-    HelloWorld,
+    // HelloWorld,
+    Test,
   },
 });
 </script>
 
 <template>
   <div>
-    <div>
+    <!-- <div>
       <a href="https://vitejs.dev" target="_blank">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
       </a>
@@ -19,7 +21,10 @@ export default defineComponent({
         <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
       </a>
     </div>
-    <HelloWorld msg="Vite + Vue" />
+    <HelloWorld msg="Vite + Vue" /> -->
+    <div>
+      <Test></Test>
+    </div>
   </div>
 </template>
 
