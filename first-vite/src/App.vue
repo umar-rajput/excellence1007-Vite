@@ -1,12 +1,14 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 // import HelloWorld from "./components/HelloWorld.vue";
-import Test from "./components/Test.vue";
+// import Test from "./components/Test.vue";
+import TestStore from "./components/TestStore.vue";
 
 export default defineComponent({
   components: {
     // HelloWorld,
-    Test,
+    // Test,
+    TestStore,
   },
 });
 </script>
@@ -23,7 +25,8 @@ export default defineComponent({
     </div>
     <HelloWorld msg="Vite + Vue" /> -->
     <div>
-      <Test></Test>
+      <!-- <Test></Test> -->
+      <TestStore></TestStore>
     </div>
   </div>
 </template>

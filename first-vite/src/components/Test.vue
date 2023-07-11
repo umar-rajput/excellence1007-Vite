@@ -1,7 +1,7 @@
 <script lang="ts">
 import { defineComponent, reactive, ref } from "vue";
-import job from "../types/job";
-import type { student } from "../types/student";
+import job from "../types/jobtype";
+import type { student } from "../types/studenttype";
 
 //also we can write
 let age: string | number = 23;
